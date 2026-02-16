@@ -1,0 +1,86 @@
+; IXFR data file
+; zone .
+; from_serial 2026020701
+; to_serial 2026020702
+; data_size 5291
+; IXFR created by NSD 4.8.0 for . 2026020701 to 2026020702 of 5291 bytes at time Sat Feb  7 23:15:41 2026
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026020702 1800 900 604800 86400
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026020701 1800 900 604800 86400
+.	86400	IN	RRSIG	SOA 8 0 86400 20260220170000 20260207160000 31128 . OCYOqgYp3N6dj9lLjt0r/rYKEMFFB722CtHGlX8xsI8Uye/E2CheVo+TsCNJBlC6wXhXOQ7AAmSIQ7KoAudexfT1/G+P692iR9e6rSuKS1GMh9+7+1HQDo/Mk/dCUnLZ9N2ORoV6Z7q8sTpyAoMyqkqpYHrvprmsnr9yNsJcgRXcvEU40sfZhh1truW1/0yuTIMUjpNg5Pq7swbo62SIRKq98W38o7jacBwe4NADs0NDjrIuzuTd1PdI7gX//scoSMMGT7J/NmyP2Sh2tXPF5p/3RoZqr0cQbmu9Wa3BJ04WJGlbhInHFHWzNFJ2+cOLiIyvBdWQyAH7HBau4Dbjog==
+.	86400	IN	RRSIG	ZONEMD 8 0 86400 20260220170000 20260207160000 31128 . fCAvr9zO1Q3S71CfvkCL8L+A8PK7eWAr4INIFd8Zb/28LB0Q1s/hl7VuFFBrHEL81jSPGctvAhemSzd7kKtbQ0JkOnwghQOdWyXrzgJYecD94zYYkSRJxx/Le+tu8PLkCdsBKYh77RMx73Y6wG1ZSURJRnRnMx0BOQ95hoYb7C0M7CjqgOewxCXNTYnGPVloiPGYAv7d94y2YDzBhyq+V0JqW4WyRoXGd2uxtJ0SPpbtd8Ok/R0WwIk1ldD5BulNMgwXHns2ORRNbHLRrPygNhfYXCtxm+zFPrPnmT/72YRX+Rsl8qA/ZvmoaJxJZlDYln8MdkrWjAYRqCdIUj6NrA==
+.	86400	IN	ZONEMD	2026020701 1 1 50f87bdeefb765462c9daf268c0deb8826abb500d20db09f5daa139198620e672e3d23af2b8497536a7e3e5e51702a33
+office.	172800	IN	NS	dns1.nic.microsoft.
+office.	172800	IN	NS	dns2.nic.microsoft.
+office.	172800	IN	NS	dns3.nic.microsoft.
+office.	172800	IN	NS	dns4.nic.microsoft.
+office.	172800	IN	NS	dnsa.nic.microsoft.
+office.	172800	IN	NS	dnsb.nic.microsoft.
+office.	172800	IN	NS	dnsc.nic.microsoft.
+office.	172800	IN	NS	dnsd.nic.microsoft.
+office.	86400	IN	DS	9475 8 2 8193e9e63984c0eebac5e602c134ca712c7843002bcddef3c08a199ac9d4308d
+office.	86400	IN	RRSIG	DS 8 1 86400 20260218170000 20260205160000 31128 . GgWgMDBfAPKntflMQkC61R0d1VK14IQPm8A/64uzZn8gEF8V8vPmBMTKnSqg0HugaDxHFdRaCgiQwJU2KLemALvdW9D18KmrUHD9D1aPTqZ/UkZQCiSgl/CCJwgz0e56yWk8xVnzHKvrPIU3BrlwkCbK1cYs0Du8DGeAkIc+5xjR6/bf6tEfO85doTEhvV8usrYK+6OWsjFdYDwLVj85DGyxemYjL+WKLV0x/HXiWch61JmYv1NtAveb0voNTXZyRmBViUpX6bhh1PZAhhyL5peRTZNs8+V/XRGQclIgfHbnpIXF25mUK4AGRswuLpSpTB5Vn/H8+qGaIV9XwGUGEQ==
+skype.	172800	IN	NS	dns1.nic.microsoft.
+skype.	172800	IN	NS	dns2.nic.microsoft.
+skype.	172800	IN	NS	dns3.nic.microsoft.
+skype.	172800	IN	NS	dns4.nic.microsoft.
+skype.	172800	IN	NS	dnsa.nic.microsoft.
+skype.	172800	IN	NS	dnsb.nic.microsoft.
+skype.	172800	IN	NS	dnsc.nic.microsoft.
+skype.	172800	IN	NS	dnsd.nic.microsoft.
+skype.	86400	IN	DS	56554 8 2 ffa94dc331d59fbe4b7b2e51871b8ceeec8ce9baa00efb2a9553f09f84804e6a
+skype.	86400	IN	RRSIG	DS 8 1 86400 20260219050000 20260206040000 31128 . boyc43wSOoPCSLfqYsHzuqdhSVvoTbGG1N1y6mM0/uQOL2lWa0JmdqXw9VEP3JZUkE7XC1WCxC+w003pqijWNbe4BMFYG55qG14l8sqLiaglD2TnZz7DIARACcofVdCAYK5SdS3tNcMIH0NbVpFgIrY7frg7BrrxI4brmDQMG4UU+8GmadELMbnSx8DkbwZM+IyK6IOwZZy1WwdnEAcT2onRJwG+F9WUMvRnbYreRu04dv5BbriUvxC6AMEJYVUK8xrE+YZcFVSgOQqcLW+7E7BNPMZAuKjekEGA7ZxATyan/nKeCxe1QTt0G640WdM594s5W814Dlnh/PZG8u2IRg==
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026020702 1800 900 604800 86400
+.	86400	IN	RRSIG	SOA 8 0 86400 20260220220000 20260207210000 31128 . OVAHnb+UmAzMNkRmepp3nnZgMUcLht4kS+hr6l23TERhRYA9FWO759GOtLdt5ZbIE4mEKt/hS1U1NPWYN+Vg0INLp57eiFR1+GVMciSSMeJ2CVNa5yIrhT8xe83cORzDsVdFyMYRBeXNMtkVQX/d+3B3rhnKxaMaNubhZ7wZU+wzmAj7AI0TirbHoQn1aRnslMcNqitmNF74us50GhbLBwlqvaGh/gNgYIvWJyi4BOOLFUm+pBFr1GdpuXdWO0SVSOLWzP/JtzOqxYRDU+qisr+Ano5X5lVdH/Sp1NFbAW9MaPR2eM4QyTiWTLRz4YY6Y7Q8a1I6zXY9JL2wl/4eMQ==
+.	86400	IN	RRSIG	ZONEMD 8 0 86400 20260220220000 20260207210000 31128 . GF0kPIBcQ1VTN/zyX36GTaVlmhGrbfY2RzCw2HLpaFOTWxGyrgDC1+TShISWbos+86q0ktOrhz2dTPqa3vfXc2IU7OU/cV79P4GjP432McSK4S/6IknL+feT/ry2Hv8PNy/ZPMkhK5OH2xkfO1jiWkeXU7gcQl2Tuovdjs4ol7h9iCP8mBcAGt78dxhke4lV6tIUjN8taILEpqptcur6OYUBy7mp7QisPtQtsZzoNVwg/t7GoTqQfwuUkXVXn2KLeyRcp00HRDU57PiLBaK/P73P4XZu6hcJnnvwos8jU/Ealj3LoNww6F2jVSQhQBGTmeILEyOpuIiQDN6MpK0QPA==
+.	86400	IN	ZONEMD	2026020702 1 1 f040150bcc5f7fd7c1fbccbfe4b3cbcf8e96e349817ce74f57ecd08caabf0b5c09281918a4154516b832c8ec5fff6fdc
+office.	172800	IN	NS	dns1.nic.office.
+office.	172800	IN	NS	dns2.nic.office.
+office.	172800	IN	NS	dns3.nic.office.
+office.	172800	IN	NS	dns4.nic.office.
+office.	172800	IN	NS	dnsa.nic.office.
+office.	172800	IN	NS	dnsb.nic.office.
+office.	172800	IN	NS	dnsc.nic.office.
+office.	172800	IN	NS	dnsd.nic.office.
+office.	86400	IN	RRSIG	DS 8 1 86400 20260220220000 20260207210000 31128 . S3p42MQD4mX+Mt2FaV5HXtdQeIg2Hx90O7Oc6HcilXrAp2m+yV9vATgqjmYJoSpqLrICNtDdERNDwWCDiuAJ0/dL4IdYSM9GN1Txz75QYRH1tz1Fb1qOBmEBuYSg08GtSddAy6j1D5tt5PlCZVgj9d6mJTGgnp7ISvcb38K2+e4gtPBmhrtryNAtKEiL7hG9B2B5qB2DTsUuZ5ng0q1fYsG2odZ8jw0DcgfpLVIZtS8IV7fSt7dVVSQv5smoaloAyB4O6trObqe9iACFQz/9Co225JFN8jdG6lk0HqJUBc9jrtuOs3w+/TA5gvK/cTz4jWEOy+U0utkn42XbtLpT3g==
+dns1.nic.office.	172800	IN	A	213.248.219.136
+dns1.nic.office.	172800	IN	AAAA	2a01:618:403::136
+dns2.nic.office.	172800	IN	A	103.49.83.136
+dns2.nic.office.	172800	IN	AAAA	2401:fd80:403::136
+dns3.nic.office.	172800	IN	A	213.248.223.136
+dns3.nic.office.	172800	IN	AAAA	2a01:618:407::136
+dns4.nic.office.	172800	IN	A	43.230.51.136
+dns4.nic.office.	172800	IN	AAAA	2401:fd80:407::136
+dnsa.nic.office.	172800	IN	A	156.154.100.3
+dnsa.nic.office.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.office.	172800	IN	A	156.154.101.3
+dnsb.nic.office.	172800	IN	AAAA	2001:502:2eda::3
+dnsc.nic.office.	172800	IN	A	156.154.102.3
+dnsc.nic.office.	172800	IN	AAAA	2610:a1:1009::3
+dnsd.nic.office.	172800	IN	A	156.154.103.3
+dnsd.nic.office.	172800	IN	AAAA	2610:a1:1010::3
+skype.	172800	IN	NS	dns1.nic.skype.
+skype.	172800	IN	NS	dns2.nic.skype.
+skype.	172800	IN	NS	dns3.nic.skype.
+skype.	172800	IN	NS	dns4.nic.skype.
+skype.	172800	IN	NS	dnsa.nic.skype.
+skype.	172800	IN	NS	dnsb.nic.skype.
+skype.	172800	IN	NS	dnsc.nic.skype.
+skype.	172800	IN	NS	dnsd.nic.skype.
+skype.	86400	IN	RRSIG	DS 8 1 86400 20260220220000 20260207210000 31128 . SpgHv4L9/ND4xm5ZVddz7CTL5j8Rg+uc8oqURqeYmsSKPnXgS0eiOudGw+NzoSktO2a8bRbFWaCkaAlx9mJx4HMIKcRSfQNYdfZ1HANavkeguxcrd+/Q9N7Hx+R1J8u4ZO7herwP/gdkV7esUwJvOOuDWghBPcV+9CYsAjr6BczS8ezj0sDouR47v59/sJv8mj4QuZKUU3pdzXDrZt/wHX2+z8f6NWvtqPdTxQuAikRJd9WZ/ZI3N8Hsrg8i52ydGQ0F6LJhWY1obYVqbuRF4kHVQwQC1asQgAfNgNZNSdE2c1kqWW8N/QiA11cyBXqoUXaTVaxkyKvSXSd6zsRSeg==
+dns1.nic.skype.	172800	IN	A	213.248.219.138
+dns1.nic.skype.	172800	IN	AAAA	2a01:618:403::138
+dns2.nic.skype.	172800	IN	A	103.49.83.138
+dns2.nic.skype.	172800	IN	AAAA	2401:fd80:403::138
+dns3.nic.skype.	172800	IN	A	213.248.223.138
+dns3.nic.skype.	172800	IN	AAAA	2a01:618:407::138
+dns4.nic.skype.	172800	IN	A	43.230.51.138
+dns4.nic.skype.	172800	IN	AAAA	2401:fd80:407::138
+dnsa.nic.skype.	172800	IN	A	156.154.100.3
+dnsa.nic.skype.	172800	IN	AAAA	2001:502:ad09::3
+dnsb.nic.skype.	172800	IN	A	156.154.101.3
+dnsb.nic.skype.	172800	IN	AAAA	2001:502:2eda::3
+dnsc.nic.skype.	172800	IN	A	156.154.102.3
+dnsc.nic.skype.	172800	IN	AAAA	2610:a1:1009::3
+dnsd.nic.skype.	172800	IN	A	156.154.103.3
+dnsd.nic.skype.	172800	IN	AAAA	2610:a1:1010::3
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026020702 1800 900 604800 86400
