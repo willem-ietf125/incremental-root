@@ -1,0 +1,136 @@
+; IXFR data file
+; zone .
+; from_serial 2026022301
+; to_serial 2026022302
+; data_size 5478
+; IXFR created by NSD 4.8.0 for . 2026022301 to 2026022302 of 5478 bytes at time Mon Feb 23 21:39:14 2026
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026022302 1800 900 604800 86400
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026022301 1800 900 604800 86400
+.	86400	IN	RRSIG	SOA 8 0 86400 20260308170000 20260223160000 31128 . JvApBmqu1k4LthTGOHFFt43W7ISF8VYhww5rVYnPU3z439inFAtSppI9ccePp9KpmU9UMFZAdAuebMHa2CSYGUBH1JAeDMZdzPZK5KnUBuhEsX3dDyq0SCNuHIyJLk6OetTj3OWMl8unNTzFKGQH223m1TZEXOCpa8uqF427R5MvObIrO4wR65raWRDhFk/ppqPfwNAPktJ++kAIZsLxOKLQkQzfs33erVeOHqYKsL8IQA2Jb/Cl0xo6jtL7XgVTdzLWSRHZbaUnsSW5Erggd9P5oLvTRECh3VBioFBmiTYRVt5//mHe3aQ6LL1J14wcv1Wns/fengDxTGaTivtpmA==
+.	86400	IN	RRSIG	ZONEMD 8 0 86400 20260308170000 20260223160000 31128 . K1cSNDpTNx4jJwE/mTVG2shu7hOPuhxvk/cy8NFCy9P5DKVn6mLbRUOayUSvfMWPMbJ/XPLrXBOjXa6bw3i4+FSPGeQElRldW9jorouMFD36UYvmSe9xTQ6pL0bM0rkzQPMlwvumCzIz2JtFzb/4wwmxbSbf+dilWck5FGmkpDLkg8GoeUR9nl3uRG/xYDHeRzCzdL4Kovs1sNSCQVH5KvPERR/oSIPNyYeDjSxEyiQ2/oqZgs3emaOnCr+ePFl0apgQl2NFYf3y5TRiLTq+snfIK0mv/egNb8+KIAESW+2g0Ec4iJ3+MIJ3xp0gIMy9QXpUA0+De7PtQczICosllA==
+.	86400	IN	ZONEMD	2026022301 1 1 14029a1137a2b28558134bd2de96b115528eeab0f2e8a7a28d14022811b031c5e85ec7164145529d8f689b29d04af0a1
+fun.	172800	IN	NS	a.nic.fun.
+fun.	172800	IN	NS	b.nic.fun.
+fun.	172800	IN	NS	e.nic.fun.
+fun.	172800	IN	NS	f.nic.fun.
+a.nic.fun.	172800	IN	A	194.169.218.72
+a.nic.fun.	172800	IN	AAAA	2001:67c:13cc::1:72
+b.nic.fun.	172800	IN	A	185.24.64.72
+b.nic.fun.	172800	IN	AAAA	2a04:2b00:13cc::1:72
+e.nic.fun.	172800	IN	A	212.18.248.72
+e.nic.fun.	172800	IN	AAAA	2a04:2b00:13ee::72
+f.nic.fun.	172800	IN	A	212.18.249.72
+f.nic.fun.	172800	IN	AAAA	2a04:2b00:13ff::72
+host.	172800	IN	NS	a.nic.host.
+host.	172800	IN	NS	b.nic.host.
+host.	172800	IN	NS	e.nic.host.
+host.	172800	IN	NS	f.nic.host.
+a.nic.host.	172800	IN	A	194.169.218.53
+a.nic.host.	172800	IN	AAAA	2001:67c:13cc::1:53
+b.nic.host.	172800	IN	A	185.24.64.53
+b.nic.host.	172800	IN	AAAA	2a04:2b00:13cc::1:53
+e.nic.host.	172800	IN	A	212.18.248.53
+e.nic.host.	172800	IN	AAAA	2a04:2b00:13ee::53
+f.nic.host.	172800	IN	A	212.18.249.53
+f.nic.host.	172800	IN	AAAA	2a04:2b00:13ff::53
+online.	172800	IN	NS	a.nic.online.
+online.	172800	IN	NS	b.nic.online.
+online.	172800	IN	NS	e.nic.online.
+online.	172800	IN	NS	f.nic.online.
+a.nic.online.	172800	IN	A	194.169.218.54
+a.nic.online.	172800	IN	AAAA	2001:67c:13cc::1:54
+b.nic.online.	172800	IN	A	185.24.64.54
+b.nic.online.	172800	IN	AAAA	2a04:2b00:13cc::1:54
+e.nic.online.	172800	IN	A	212.18.248.54
+e.nic.online.	172800	IN	AAAA	2a04:2b00:13ee::54
+f.nic.online.	172800	IN	A	212.18.249.54
+f.nic.online.	172800	IN	AAAA	2a04:2b00:13ff::54
+press.	172800	IN	NS	a.nic.press.
+press.	172800	IN	NS	b.nic.press.
+press.	172800	IN	NS	e.nic.press.
+press.	172800	IN	NS	f.nic.press.
+a.nic.press.	172800	IN	A	194.169.218.34
+a.nic.press.	172800	IN	AAAA	2001:67c:13cc::1:34
+b.nic.press.	172800	IN	A	185.24.64.34
+b.nic.press.	172800	IN	AAAA	2a04:2b00:13cc::1:34
+e.nic.press.	172800	IN	A	212.18.248.34
+e.nic.press.	172800	IN	AAAA	2a04:2b00:13ee::34
+f.nic.press.	172800	IN	A	212.18.249.34
+f.nic.press.	172800	IN	AAAA	2a04:2b00:13ff::34
+site.	172800	IN	NS	a.nic.site.
+site.	172800	IN	NS	b.nic.site.
+site.	172800	IN	NS	e.nic.site.
+site.	172800	IN	NS	f.nic.site.
+a.nic.site.	172800	IN	A	194.169.218.61
+a.nic.site.	172800	IN	AAAA	2001:67c:13cc::1:61
+b.nic.site.	172800	IN	A	185.24.64.61
+b.nic.site.	172800	IN	AAAA	2a04:2b00:13cc::1:61
+e.nic.site.	172800	IN	A	212.18.248.61
+e.nic.site.	172800	IN	AAAA	2a04:2b00:13ee::61
+f.nic.site.	172800	IN	A	212.18.249.61
+f.nic.site.	172800	IN	AAAA	2a04:2b00:13ff::61
+space.	172800	IN	NS	a.nic.space.
+space.	172800	IN	NS	b.nic.space.
+space.	172800	IN	NS	e.nic.space.
+space.	172800	IN	NS	f.nic.space.
+a.nic.space.	172800	IN	A	194.169.218.51
+a.nic.space.	172800	IN	AAAA	2001:67c:13cc::1:51
+b.nic.space.	172800	IN	A	185.24.64.51
+b.nic.space.	172800	IN	AAAA	2a04:2b00:13cc::1:51
+e.nic.space.	172800	IN	A	212.18.248.51
+e.nic.space.	172800	IN	AAAA	2a04:2b00:13ee::51
+f.nic.space.	172800	IN	A	212.18.249.51
+f.nic.space.	172800	IN	AAAA	2a04:2b00:13ff::51
+store.	172800	IN	NS	a.nic.store.
+store.	172800	IN	NS	b.nic.store.
+store.	172800	IN	NS	e.nic.store.
+store.	172800	IN	NS	f.nic.store.
+a.nic.store.	172800	IN	A	194.169.218.45
+a.nic.store.	172800	IN	AAAA	2001:67c:13cc::1:45
+b.nic.store.	172800	IN	A	185.24.64.45
+b.nic.store.	172800	IN	AAAA	2a04:2b00:13cc::1:45
+e.nic.store.	172800	IN	A	212.18.248.45
+e.nic.store.	172800	IN	AAAA	2a04:2b00:13ee::45
+f.nic.store.	172800	IN	A	212.18.249.45
+f.nic.store.	172800	IN	AAAA	2a04:2b00:13ff::45
+tech.	172800	IN	NS	a.nic.tech.
+tech.	172800	IN	NS	b.nic.tech.
+tech.	172800	IN	NS	e.nic.tech.
+tech.	172800	IN	NS	f.nic.tech.
+a.nic.tech.	172800	IN	A	194.169.218.60
+a.nic.tech.	172800	IN	AAAA	2001:67c:13cc::1:60
+b.nic.tech.	172800	IN	A	185.24.64.60
+b.nic.tech.	172800	IN	AAAA	2a04:2b00:13cc::1:60
+e.nic.tech.	172800	IN	A	212.18.248.60
+e.nic.tech.	172800	IN	AAAA	2a04:2b00:13ee::60
+f.nic.tech.	172800	IN	A	212.18.249.60
+f.nic.tech.	172800	IN	AAAA	2a04:2b00:13ff::60
+uno.	172800	IN	NS	a.nic.uno.
+uno.	172800	IN	NS	b.nic.uno.
+uno.	172800	IN	NS	c.nic.uno.
+uno.	172800	IN	NS	d.nic.uno.
+a.nic.uno.	172800	IN	A	194.169.218.21
+a.nic.uno.	172800	IN	AAAA	2001:67c:13cc::1:21
+b.nic.uno.	172800	IN	A	185.24.64.21
+b.nic.uno.	172800	IN	AAAA	2a04:2b00:13cc::1:21
+c.nic.uno.	172800	IN	A	212.18.248.21
+c.nic.uno.	172800	IN	AAAA	2a04:2b00:13ee::21
+d.nic.uno.	172800	IN	A	212.18.249.21
+d.nic.uno.	172800	IN	AAAA	2a04:2b00:13ff::21
+website.	172800	IN	NS	a.nic.website.
+website.	172800	IN	NS	b.nic.website.
+website.	172800	IN	NS	e.nic.website.
+website.	172800	IN	NS	f.nic.website.
+a.nic.website.	172800	IN	A	194.169.218.52
+a.nic.website.	172800	IN	AAAA	2001:67c:13cc::1:52
+b.nic.website.	172800	IN	A	185.24.64.52
+b.nic.website.	172800	IN	AAAA	2a04:2b00:13cc::1:52
+e.nic.website.	172800	IN	A	212.18.248.52
+e.nic.website.	172800	IN	AAAA	2a04:2b00:13ee::52
+f.nic.website.	172800	IN	A	212.18.249.52
+f.nic.website.	172800	IN	AAAA	2a04:2b00:13ff::52
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026022302 1800 900 604800 86400
+.	86400	IN	RRSIG	SOA 8 0 86400 20260308210000 20260223200000 31128 . MKmS+Ah0A17qqbdRdNob45kKd10zsYf5YzYLuhVXdkLSzuIP0v2CyAwO+QFbUBvQeTmiYgaVMiUveL+pGqzxOgBPNNGVcHK3H9Uhu7cmR/ttWD6o0NO+fWisA4xM5+2w7Ri3E01NOpZW9ZShiEDO3LOYWsmYOb7UIYWIOsTARYWue2rHy5nOf8Lp2Sav0m+K7CyMzXCLpRcOkQcAhWycAKwCUqh50UZs1I5SqaaE+n3KV0LVbLDjONIS7Bqt1oQX52XY+5k/DXioJMqATCvYERgjDXNepkU+G0dK7nhQ7yP/I6Yhvnkp0Gq/HD42i2kcIWiaBvtVxskGTMy0QBsTgw==
+.	86400	IN	RRSIG	ZONEMD 8 0 86400 20260308210000 20260223200000 31128 . f9qbWAEBHqMCU7WVbw6WlsAnm/VF7f+K8+6GQfQvkRnc76JOxf3AZ0u1RR3aRRcBPJldtH3KdoyzWmNi1YRUN1TK+7BxdRy7jbX6gHyOVQ2ypEql6FVUJr93xyz/XCUIl0+GILeHMJ6CupSlK/ztt6B6HSnJ0zAIRidCTt6474r3EiGg+p3Knv4HJp8QPICxdEi//3eLZR5pjLM7OjPUoU4TVOdu38JdmgMrqUH6t3e/0fLe8kDfudhSCWk5O8M3pYOlP1QJPGQ8t/XHPwiFkM0T1XAmulXE0DGplaBiymTFJF2Z8s2bRHDeJrlaSc03ck75GrW28Ew7Tz5Cm7Poow==
+.	86400	IN	ZONEMD	2026022302 1 1 20ce8deb15b4d8ee8360d4ef61f96c5bd5f4164f05f1c981d4fabb2a82a01097c259d6364c4e7cd176ce543fa12ea552
+.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026022302 1800 900 604800 86400

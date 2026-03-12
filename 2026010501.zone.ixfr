@@ -3,7 +3,7 @@
 ; from_serial 2026010500
 ; to_serial 2026010501
 ; data_size 137038
-; IXFR created by NSD 4.8.0 for . 2026010500 to 2026010501 of 137038 bytes at time Mon Jan  5 18:00:29 2026
+; IXFR created by NSD 4.8.0 for . 2026010500 to 2026010501 of 137038 bytes at time Mon Jan  5 18:00:28 2026
 .	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026010501 1800 900 604800 86400
 .	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2026010500 1800 900 604800 86400
 .	86400	IN	RRSIG	SOA 8 0 86400 20260118050000 20260105040000 31128 . aGuVuMpTh792ST13d3MRNg3oS4EsaEkTkjs6sb33zIY4z+OEH6VBFb97qDsJxKv/I+gWZ1eJKkctgN8ouyLPkSknygbFSgGgdSQy19aoZfaHQh35YS2hIttuV9Yyfq5A6HFhBDtXAzB9lyAspx+o0mJzAWTjoECiOGcwrxmEox0HshpztkNFiN7LiM4V78ViXPKDJqY/da2GX9kiQelMJdiOwAMm7UCGdwI8vJxoJnbtm7J7uqlvZaO2e2mzLLm72QMLBF8XQx++v9xClXbwKoA4f4ns6rRK56ji3EmmNbgWsCgCIvhqgUzMCjUyBtYx7Xf15tb88bDYtogP8JvT+g==
